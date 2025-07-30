@@ -32,8 +32,7 @@ eco-tracker/
   node server.js
 
 
-##Final Structure
-  
+## **Final Structure**
   eco-tracker/          
 │
 ├── backend/       
