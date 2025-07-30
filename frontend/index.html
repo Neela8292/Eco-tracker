@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eco Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Eco Tracker</h1>
+    <p>Calculate your daily carbon footprint.</p>
+    <form id="eco-form">
+      <label for="transport">Transport (km traveled):</label>
+      <input type="number" id="transport" placeholder="e.g., 20" required>
+      
+      <label for="electricity">Electricity (kWh used):</label>
+      <input type="number" id="electricity" placeholder="e.g., 5" required>
+      
+      <label for="meat">Meat consumption (kg):</label>
+      <input type="number" id="meat" placeholder="e.g., 0.5" required>
+      
+      <button type="submit">Calculate Emissions</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
