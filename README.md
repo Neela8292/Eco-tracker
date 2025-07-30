@@ -25,14 +25,13 @@ eco-tracker/
 - **Backend:** Node.js, Express.js       
 - **API:** Custom-built `/api/emissions` endpoint     
 
-
-  Setup Backend     
+## **Setup Backend**                    
   cd backend     
   npm install      
   node server.js
 
 
-## **Final Structure**
+##  **Final Structure**
   eco-tracker/          
 │
 ├── backend/       
